@@ -1,0 +1,132 @@
+body {
+ background-color: #03071E;
+}
+
+.card {
+ background-color: #370617;
+ border: 0px;
+ border-radius: 10px;
+ height: 620px;
+ width: 430px;
+ position: relative;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ align-items: center;
+ margin: 20px auto;
+}
+.dot {
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ margin-top: 70px;
+ margin-left: 180px;
+}
+.name {
+ padding-left: 150px;
+ color: white;
+}
+.location {
+ padding-left: 150px;
+ color: #fee440;
+}
+.description {
+ padding-left: 120px;
+ color: white;
+}
+@font-face {
+ font-family: Inter-Variable;
+ src: url(/public/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+.Inter-Variable {
+font-family: Inter-Variable;
+margin-top: 20px;
+}
+.pages {
+ list-style-type: none;
+ text-align: center;
+ width: 350px;
+ height: 30px;
+}
+.github {
+ background-color: #6A040F;
+ width: 350px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ margin-bottom: 15px;
+ color: white;
+ border-radius: 5px;
+}
+.github:hover {
+ background-color: #fee440;
+ cursor: pointer;
+ text-decoration: none;
+}
+.youtube {
+ background-color: #6A040F;
+ width: 350px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ margin-bottom: 15px;
+ color: white;
+ border-radius: 5px;
+}
+.youtube:hover {
+ background-color: #fee440;
+ cursor: pointer;
+}
+.tiktok {
+ background-color: #6A040F;
+ width: 350px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ margin-bottom: 15px;
+ color: white;
+ border-radius: 5px;
+}
+.tiktok:hover {
+ background-color: #fee440;
+ cursor: pointer;
+}
+.instagram {
+ background-color: #6A040F;
+ width: 350px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ margin-bottom: 15px;
+ color: white;
+ border-radius: 5px;
+}
+.instagram:hover {
+ background-color: #fee440;
+ cursor: pointer;
+}
+.facebook {
+ background-color: #6A040F;
+ width: 350px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ margin-bottom: 15px;
+ color: white;
+ border-radius: 5px;
+}
+.facebook:hover {
+ background-color: #fee440;
+ cursor: pointer;
+}
